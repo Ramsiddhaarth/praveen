@@ -1,6 +1,6 @@
-CREATE DATABASE fone;
+CREATE DATABASE zone;
 
-USE fone;
+USE Fone;
 
 CREATE TABLE Fones
 (
@@ -10,4 +10,3 @@ CREATE TABLE Fones
     course VARCHAR(50),
     fees INT
 );
-
