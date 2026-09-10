@@ -1,8 +1,8 @@
 CREATE DATABASE zone;
 
-USE Fone;
+USE zone;
 
-CREATE TABLE Fones
+CREATE TABLE zones
 (
     id BIGINT PRIMARY KEY AUTO_INCREMENT,
     studentname VARCHAR(50),
@@ -10,3 +10,4 @@ CREATE TABLE Fones
     course VARCHAR(50),
     fees INT
 );
+select * from zones; 
